@@ -1,5 +1,34 @@
-:horizontal
-{
-  display: flex;
-  flex-direction: row;
+
+body{
+  background: url("122.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ti{
+  padding:200px;
+  color: white;
+}
+#hi1{
+  font-size: 20;
+}
+
+#hi2{
+  font-size: 20;
+}
+
+#hi3{
+ background:white;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 200px;
+  transform: 0.2 ease;
+}
+#hi3:hover{
+  background-color: orange;
 }
